@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap");
+html{-webkit-box-sizing:border-box;box-sizing:border-box;margin: 0;padding: 0;scroll-behavior:smooth}
+body{background-color: #fff;font-family:Raleway,sans-serif;color:#1e2431;}
+ul{list-style: none;margin: 0;padding: 0;}
+#main-container{width: 90%;margin: auto;margin-top: 1.7rem;}@media (min-width:767.98px){#main-container{margin-top: 1.7rem;}}
+.content-form{text-align: center;-webkit-box-align: center;-ms-flex-align: center;align-items: center;}
+.title{font-size: 2.5em;color: #6759f9;font-weight:900;margin-top: 1.8rem;}@media (min-width:767.98px){.title{margin-top: 0;}}
+h1.title-2{margin-top: 5rem;font-size: 1.6rem;}   /*recover-password*/
+.mensaje{width:100%;text-align: center;-webkit-box-align: center;-ms-flex-align: center;align-items: center;}  /*recover-password*/
+p{margin: 2rem auto;width: -webkit-max-content;width: -moz-max-content;width: max-content;text-align: left;font-size: 0.9rem;}  /*recover-password*/
+form{text-align: center;width: 100%;}
+.formulario, .formulario-2{text-align: left;width: -webkit-max-content;width: -moz-max-content;width: max-content;margin: auto;padding-right: 0;}  /*login y recover-password*/
+label{color: #1e2431;font-weight: 700;font-size: .875em;letter-spacing: .09em;}
+input{width: 261px;height: 40px;border-radius: 5px;padding:10px;border: 1px solid #a2a2a4;margin-bottom: 1rem;}@media (min-width:767.98px){input{width:325px;}}
+.formulario-2 input{width:312px;} /*recover-password*/
+input[type="email"], input[type="password"], input[type="text"], input[type="number"]{color: #8e8e93;font-size: .875em;font-weight: 300;}
+::-webkit-input-placeholder {color:#d0d0d3;opacity: 1;font-family:Raleway,sans-serif;}
+::-moz-placeholder {color:#d0d0d3;opacity: 1;font-family:Raleway,sans-serif;}
+:-ms-input-placeholder {color:#d0d0d3;opacity: 1;font-family:Raleway,sans-serif;}
+::-ms-input-placeholder {color:#d0d0d3;opacity: 1;font-family:Raleway,sans-serif;}
+::placeholder {color:#d0d0d3;opacity: 1;font-family:Raleway,sans-serif;}:-ms-input-placeholder { color: red;}::-ms-input-placeholder {color: red;}
+.btn-enviar{border-color: #6759f9;background-color: #6759f9;color: #fff;border-radius: 5px;font-size: 1em;font-weight: bold;margin-top: 1rem;}
+.enlaces{width: 261px;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;}@media (min-width:767.98px){.enlaces{width:325px;}}
+.enlaces a{color: #C20878;font-size: 0.85rem; font-weight: bold;}
+.lineas-o{margin: 1rem auto;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;width: 261px;}@media (min-width:767.98px){.lineas-o{width:325px;}}
+hr{color: #000;width: 120px;border-top: 1px solid #000;}@media (min-width:767.98px){hr{width: 150px;}}
+.redes{text-align: center;}
+.redes a{text-decoration: none;}
+.facebook, .google, .apple{border: 1px solid grey;border-radius: 5px;margin: auto;margin-bottom: 0.5rem;height: 40px; width: 261px;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align: center;-ms-flex-align: center;align-items: center;font-weight: bold;}@media (min-width:767.98px){.facebook, .google, .apple{width:325px;}}
+.facebook i, .google img, .apple i{margin: 0 1.3rem;font-size: 1.5rem;}@media (min-width:767.98px){.facebook i, .google i, .apple i{margin: 0 2rem;}}
+.google img {height: 1.5rem;margin: 0 1.15rem;}@media (min-width:767.98px){.google img {margin: 0 1.85rem;}}
+.facebook{background-color: #3B5998;color: #fff;}
+.google{background-color: #fff;color: grey;}
+.apple{background-color: #000;color: #fff;}
+.checkbox{width: 261px;}@media (min-width:767.98px){.checkbox{width: 325px;}}
+.checkbox label{width: 400px;font-size: 0.75rem;letter-spacing: .07em;font-weight: normal;}
+input[type="checkbox"]{width: 20px;margin-bottom: -1px; vertical-align: middle;}@media (min-width:767.98px){.checkbox label{font-size: 0.95rem;margin-left: 5px;}}
+footer,.footer{margin-top: 1rem; text-align: center;color: grey;font-size: 0.7rem}footer a, .footer a{text-decoration: none;color: #C20878;font-weight: bold;}@media (min-width:767.98px){footer,.footer{font-size: 0.8rem}}
+.form-group, .position-relative{width: -webkit-max-content;width: -moz-max-content;width: max-content; margin-right: 0;}  /*registration*/
+

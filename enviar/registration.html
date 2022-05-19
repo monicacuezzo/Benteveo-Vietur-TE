@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=5.0, minimum-scale=0.86">
+        <meta name="description" content="Página de ingreso a Tour Experto">
+        <meta name="HandheldFriendly" content="true">
+        <meta name="robots" content="index,follow">
+     
+        <title>Tour Experto</title>
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+        <link rel="stylesheet" type="text/css" href="content/css/libs/libs.css">
+        <script src="https://kit.fontawesome.com/33cbe32cbf.js" crossorigin="anonymous"></script>
+
+        <!--Estilos de página-->
+            
+        <link rel="stylesheet" type="text/css" href="content/css/login.css">
+
+</head>
+<body>
+
+    <div id="main-container">
+        
+        <header id="header">
+            <div class="container-lg">
+                <div class="d-flex justify-content-between header-bottom">
+                    <a href="#" id="logo"><img src="content/img/logo.png" alt=""></a>
+                </div>
+            </div>
+        </header>
+        
+        <div class="content-form">
+                     
+            <h1 class="title">Registrate </h1>
+
+            <div class="redes">
+                <a href="" >
+                    <div class="facebook">
+                        <i class="fa-brands fa-facebook-square"></i>
+                        Registrate con Facebook
+                    </div>
+                </a>
+                <a href="" >
+                    <div class="google">
+                        <img src="content/img/logo-google.png" alt="">
+                        Registrate con Google
+                    </div>
+                </a>
+                <a href="" >
+                    <div class="apple">
+                        <i class="fa-brands fa-apple"></i>
+                        Registrate con Apple
+                    </div>
+                </a>
+            </div>
+
+            <div class="lineas-o"> <hr>ó <hr></div>
+
+            <!--Form-->
+            <form action="#">
+                                
+                <div class="formulario">
+                                                           
+                    <div class="form-group ">
+                        <div class="position-relative">
+                            <label for="name">Nombre</label>
+                            <span class="label-help"></span>
+                        </div>
+                        <input type="text"  
+                        name="name" id="name" 
+                        placeholder="Ingresa tu nombre" 
+                        value=""
+                        autocomplete="off"
+                        data-parsley-trigger="change"
+                        data-parsley-required-message= "Debes completar este campo"
+                        data-parsley-required >
+                    </div>
+
+                    <div class="form-group ">
+                        <div class="position-relative">
+                            <label for="ape">Apellido</label>
+                            <span class="label-help"></span>
+                        </div>
+                        <input type="text" 
+                        name="ape" id="ape" 
+                        placeholder="Ingresa tu apellido" 
+                        value=""
+                        autocomplete="off"
+                        data-parsley-trigger="change"
+                        data-parsley-required-message= "Debes completar este campo"
+                        data-parsley-required >
+                    </div>
+
+                    <div class="form-group ">
+                        <div class="position-relative">
+                            <label for="email">Email</label>
+                            <span class="label-help"></span>
+                        </div>
+                        <input type="email"
+                            name="email" id="email" 
+                            placeholder="Ingresa un email válido" 
+                            value=""
+                            autocomplete="off"
+                            data-parsley-trigger="change"
+                            data-parsley-required-message= "Debes completar este campo"
+                            data-parsley-type-message= "Debes ingresar un mail válido."
+                            data-parsley-required >
+                    </div>
+
+                    <div class="form-group ">
+                        <div class="position-relative">
+                            <label for="mobile">Número de WhatsApp</label>
+                            <span class="label-help"></span>
+                        </div>
+                        <input type="number" 
+                        name="mobile" id="mobile" 
+                        placeholder="+54.11.4567.8888" 
+                        value=""
+                        autocomplete="off">
+                    </div>
+
+                    <div class="form-group ">
+                        <div class="position-relative">
+                            <label for="password">Contraseña</label>
+                            <span class="label-help"></span>
+                        </div>
+                        <input type="password"   
+                            name="password" id="password" 
+                            placeholder="Ingresa la contraseña" 
+                            value=""
+                            autocomplete="off"
+                            data-parsley-trigger="change"
+                            data-parsley-required-message= "Debes completar este campo"
+                            data-parsley-required >
+                    </div>
+                                                            
+                    <div class="form-group ">
+                        <div class="position-relative">
+                            <label for="password2">Repetir Contraseña</label>
+                            <span class="label-help"></span>
+                        </div>
+                        <input type="password"   
+                            name="password2" id="password2" 
+                            placeholder="Repeti la contraseña" 
+                            value=""
+                            autocomplete="off"
+                            data-parsley-trigger="change"
+                            data-parsley-required-message= "Debes completar este campo"
+                            data-parsley-required >
+                    </div>
+
+                    <div class="checkbox">
+                        <label><input type="checkbox" id="quiero-promos" value="quiero-promos" checked> Quiero recibir ofertas y promociones</label>
+                    </div>
+
+                    <div class="footer">
+                        <span>Al registrarme acepto los </span>
+                        <a href="">Términos y Condiciones</a><br>
+                        <span>y declaración de privacidad y cookies</span>
+                    </div>
+
+                    <input type="submit" class="btn-enviar" value="Registrarme" id="save">
+
+                </div>           
+                                                   
+            </form> 
+            <!--Form-->
+        </div>
+    </div>
+
+    
+
+    
+    <script type="text/javascript" src="content/js/libs/libs.js"></script>
+
+    <!--page scripts-->
+    
+
+</body>
+</html>
