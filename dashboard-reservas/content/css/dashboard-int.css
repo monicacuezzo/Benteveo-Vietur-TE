@@ -96,5 +96,9 @@ header{padding:0;margin:0}.pghome .header-bottom,.pgproduct .header-bottom,.pgse
 
   footer{width: 100vw;}
 
-
+/*  tabla responsive*/
+@media(max-width:1000px){thead{display: none;}}
+@media(max-width:1000px){table {width: 100%;}table td{display: block; width: 100%;text-align: center;}table td p.status{margin: auto;}table td a div.position-relative{width: -webkit-max-content;width: -moz-max-content;width: max-content; margin: auto;}}
+@media(max-width:1000px){tr td:last-child{border-bottom: 1px solid rgb(162, 160, 160);}}
+/* table th{display: block; width: 100%;}  */
       
