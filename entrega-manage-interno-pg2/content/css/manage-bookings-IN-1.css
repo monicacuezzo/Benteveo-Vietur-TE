@@ -19,7 +19,7 @@ input {line-height: .875em;}
 
 #tour input{height: 25px;overflow: hidden; width: 100%;max-width: 100%;margin-bottom: 5px; }  
 .IN-botones, .IN-botones2{font-size: 1rem;}
-#tour .IN-botones, #fila-pasajeros .IN-botones, #item-opcionales .IN-botones, #item-opcionales-agregar .IN-botones, #detalle-opcionales-contratados .IN-botones, .importes.importes-form .IN-botones{line-height: 0;height: 40px;width: -webkit-max-content;width: -moz-max-content;width: max-content;padding: 0 2rem;}
+#tour .IN-botones, #fila-pasajeros .IN-botones, #item-opcionales .IN-botones, #item-opcionales-agregar .IN-botones, #item-opcionales-agregar2 .IN-botones, #detalle-opcionales-contratados .IN-botones, .importes.importes-form .IN-botones{line-height: 0;height: 40px;width: -webkit-max-content;width: -moz-max-content;width: max-content;padding: 0 2rem;}
 .botonera-overflow{margin: 1rem 0 1rem -1rem;}@media (min-width:400px){.botonera-overflow{margin: 1rem 0 1rem 0.5rem;}}
 
 .importes.importes-form .IN-botones2, .fila-op-contr .IN-botones2{margin: -3px 0 10px 5px;width: 40px; height: 30px;padding: 0;font-size: 1rem;line-height: 0;}
@@ -30,32 +30,32 @@ input {line-height: .875em;}
 .importes.importes-form .precios, #detalle-opcionales-contratados .precios{width: 30%;margin-left: 0; }
 
 .importes.importes-form input,#detalle-opcionales-contratados .fila-op-contr .precios input, .precios input, .precios2 input{width: 80%; height: 25px;padding: 0 5px;} 
-.importes.importes-form input.large, #detalle-opcionales-contratados input.large{width: 65%; max-width: 65%;} 
+.importes.importes-form input.large, #detalle-opcionales-contratados input.large{width: 49%; max-width: 49%;} 
 .margen-totales{width: 65%;}
-.precios2{width: 30%;}
+.precios2{width: 24%;}
 .margen-totales{width: 65%;}
-.precios2{width: 30%;}
+.precios2{width: 24%;}
 
-#item-opcionales input, #detalle-opcionales-contratados input{height: 25px;overflow: hidden; width: 250px;}@media (min-width:400px){#item-opcionales input, #item-opcionales-agregar input, #detalle-opcionales-contratados input{width: 200px;}}
+#item-opcionales input, #detalle-opcionales-contratados input{height: 25px;overflow: hidden; width: 250px;}@media (min-width:400px){#item-opcionales input, #item-opcionales-agregar input, #item-opcionales-agregar2 input, #detalle-opcionales-contratados input{width: 200px;}}
 #detalle-opcionales-contratados .precios2 input{width: 80%; height: 25px;padding: 0 5px;}
-#item-opcionales-agregar .opcionales-fila1, .fila-op-contr{display: -webkit-box;display: -ms-flexbox;display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap;}
+#item-opcionales-agregar .opcionales-fila1, #item-opcionales-agregar2 .opcionales-fila1, .fila-op-contr{display: -webkit-box;display: -ms-flexbox;display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap;}
 .flex{display: -webkit-box;display: -ms-flexbox;display: flex;-ms-flex-wrap: wrap;flex-wrap: wrap;}
-#item-opcionales-agregar input[type=text]{width: 220px; margin-right: 10px;margin-bottom: 10px; height: 25px;}
-#item-opcionales-agregar input[type=date]{height: 25px; }
+#item-opcionales-agregar input[type=text], #item-opcionales-agregar2 input[type=text], #item-opcionales-agregar input[type=number], #item-opcionales-agregar2 input[type=number]{width: 150px; margin-right: 10px;margin-bottom: 10px; height: 25px;}
+#item-opcionales-agregar input[type=date], #item-opcionales-agregar2 input[type=date]{height: 25px; }
 #fila-pasajeros input{height: 25px;overflow: hidden; width: 100%;max-width: 100%;}
 
 #detalle-opcionales-contratados input[type=number]{width: 80%;}
 #detalle-opcionales-contratados .botonera{-webkit-box-pack: end;-ms-flex-pack: end;justify-content: flex-end;}
-#item-opcionales input[type=date], #item-opcionales-modif input[type=date], #item-opcionales-agregar input[type=date]{width: 150px;margin: 0 0.5rem;}
-#item-opcionales .opcionales-text, #item-opcionales-modif .opcionales-text, #item-opcionales-agregar .opcionales-text{-webkit-box-pack: start;-ms-flex-pack: start;justify-content: flex-start;}
-#item-opcionales select, #item-opcionales-modif select, #item-opcionales-agregar select{height: 22px;}
+#item-opcionales input[type=date], #item-opcionales-modif input[type=date], #item-opcionales-agregar input[type=date], #item-opcionales-agregar2 input[type=date]{width: 140px;margin: 0 0.5rem;}
+#item-opcionales .opcionales-text, #item-opcionales-modif .opcionales-text, #item-opcionales-agregar .opcionales-text, #item-opcionales-agregar2 .opcionales-text{-webkit-box-pack: start;-ms-flex-pack: start;justify-content: flex-start;}
+#item-opcionales select, #item-opcionales-modif select, #item-opcionales-agregar select, #item-opcionales-agregar2 select{height: 22px;}
 
-#item-opcionales-agregar.item-opcionales{padding-left: 0;}
-#item-opcionales-agregar form .opcionales-fila1 .opcionales-tit, #item-opcionales-agregar form .opcionales-fila1 select, #item-opcionales form .opcionales-fila1 .opcionales-tit, #item-opcionales form .opcionales-fila1 select, .fila-op-contr{margin-bottom: 0.7rem;}
-#item-opcionales-agregar form .opcionales-text, #item-opcionales form .opcionales-fila1, #item-opcionales .opcionales-text{display: -webkit-box;display: -ms-flexbox;display: flex;-ms-flex-wrap: wrap;flex-wrap: wrap; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row;}
+#item-opcionales-agregar.item-opcionales, #item-opcionales-agregar2.item-opcionales{padding-left: 0;}
+#item-opcionales-agregar form .opcionales-fila1 .opcionales-tit, #item-opcionales-agregar2 form .opcionales-fila1 .opcionales-tit, #item-opcionales-agregar form .opcionales-fila1 select, #item-opcionales-agregar2 form .opcionales-fila1 select, #item-opcionales form .opcionales-fila1 .opcionales-tit, #item-opcionales form .opcionales-fila1 select, .fila-op-contr{margin-bottom: 0.7rem;}
+#item-opcionales-agregar form .opcionales-text, #item-opcionales-agregar2 form .opcionales-text,#item-opcionales form .opcionales-fila1, #item-opcionales .opcionales-text{display: -webkit-box;display: -ms-flexbox;display: flex;-ms-flex-wrap: wrap;flex-wrap: wrap; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row;}
 
-#item-opcionales-agregar .opcionales-text .fechas, #item-opcionales .opcionales-text .fechas{width: 220px;margin-bottom: 0.7rem;display: -webkit-box;display: -ms-flexbox;display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between;}
-#item-opcionales-agregar{border: 0;}
+/* #item-opcionales .opcionales-text .fechas{width: 220px;margin-bottom: 0.7rem;display: -webkit-box;display: -ms-flexbox;display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between;} */
+#item-opcionales-agregar, #item-opcionales-agregar2{border: 0;}
 
 .info{z-index: 0;}
 .info .label, .pasajeros .label, .recuadro-interno .label{margin-right: 5px;}
@@ -301,4 +301,32 @@ header{padding:0;margin:0}.pghome .header-bottom,.pgproduct .header-bottom,.pgse
 .anular{position: relative;}
 #seccion-historial-op .detalle-opcionales, #seccion-historial-op .detalle-opcionales-contratados{margin-bottom: 0;}
 
+
+/* NUEVO modificaciones 5/7/2022 */
+.label-moneda{font-size: 0.7rem;}
+.label-chico{font-size: 0.8rem;}
+.liq-col1{width: 49%;margin-right: 1%;} div.liq-col2{width: 24%;margin-right: 1%;}  div.liq-col3{width: 24%;} div.liq-col4{width: 22%;text-align: center;padding: 0; height: 25px;}div.liq-col5{width: 67%;margin-right: 1%;} 
+.liq-fila{display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-orient: horizontal;-webkit-box-direction: normal;-ms-flex-direction: row;flex-direction: row;}
+.texto-detalle .liq-col2, .texto-detalle .liq-col3{text-align: left;}
+div.liq-col4 input[type=text]{width: 100%;}
+.liq-colx{width: 110px;text-align: left;}
+.liq-titx1{width: 120px;text-align: left;margin: 0 3px 10px 0;}
+.liq-titx2{width: 150px;text-align: left;margin: 0 3px;}
+.liq-margen{margin-right: 18px;}
+div.importes-izq{display: -webkit-box;display: -ms-flexbox;display: flex; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start;}
+div.importes-izq .label{margin-left: 0.5rem;}
+.moneda{display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-orient: horizontal;-webkit-box-direction: normal;-ms-flex-direction: row;flex-direction: row;}
+#item-opcionales-agregar input[type=date], #item-opcionales-agregar2 input[type=date]{width: 115px; margin-left: 3px;margin-right: 3px;}
+#item-opcionales-agregar .fechas, #item-opcionales-agregar2 .fechas{width: -webkit-max-content;width: -moz-max-content;width: max-content; margin-bottom: 0.7rem;}
+#item-opcionales-agregar select, #item-opcionales-agregar2 select{border: 1px solid rgb(162, 161, 161);border-radius: 5px;margin: 0 3px;font-weight: bold; padding: 0 10px;} /*padding: 0 15px; text-align: center; text-align-last: center;*/
+#item-opcionales-agregar option,#item-opcionales-agregar2 option{text-align: center;padding: 0 10px;}
+
+.op-renglon{display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-orient: horizontal;-webkit-box-direction: normal;-ms-flex-direction: row;flex-direction: row;-ms-flex-wrap: wrap;flex-wrap: wrap;}
+.op-renglon .fechas{font-size: 0.8rem;}
+.texto-detalle div.liq-center, .texto-detalle2 div.liq-center, .detalle-opcionales-contratados div.liq-center{display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;-webkit-box-align: center;-ms-flex-align: center;align-items: center;}
+.importes p{margin: 0;}
+div.texto-detalle2{width: 100%; display: flex;justify-content: flex-end;text-align: right;}
+#item-opcionales-agregar .estado{font-size: 0.65rem;border-radius: 15px;text-align: left;}
+.moneda select{text-align: left;padding-left: 0;font-size: 0.8rem;}
+ 
 
