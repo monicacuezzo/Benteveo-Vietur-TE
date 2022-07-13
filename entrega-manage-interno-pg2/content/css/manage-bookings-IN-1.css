@@ -19,7 +19,7 @@ input {line-height: .875em;}
 
 #tour input{height: 25px;overflow: hidden; width: 100%;max-width: 100%;margin-bottom: 5px; }  
 .IN-botones, .IN-botones2{font-size: 1rem;}
-#tour .IN-botones, #fila-pasajeros .IN-botones, #item-opcionales .IN-botones, #item-opcionales-agregar .IN-botones, #item-opcionales-agregar2 .IN-botones, #detalle-opcionales-contratados .IN-botones, .importes.importes-form .IN-botones{line-height: 0;height: 40px;width: -webkit-max-content;width: -moz-max-content;width: max-content;padding: 0 2rem;}
+#tour .IN-botones, #fila-pasajeros .IN-botones, #item-opcionales .IN-botones, #item-opcionales-agregar .IN-botones, #item-opcionales-agregar2 .IN-botones, #detalle-opcionales-contratados .IN-botones, .importes.importes-form .IN-botones{line-height: 0;height: 40px;width: -webkit-max-content;width: -moz-max-content;width: max-content;padding: 0 1rem;}
 .botonera-overflow{margin: 1rem 0 1rem -1rem;}@media (min-width:400px){.botonera-overflow{margin: 1rem 0 1rem 0.5rem;}}
 
 .importes.importes-form .IN-botones2, .fila-op-contr .IN-botones2{margin: -3px 0 10px 5px;width: 40px; height: 30px;padding: 0;font-size: 1rem;line-height: 0;}
