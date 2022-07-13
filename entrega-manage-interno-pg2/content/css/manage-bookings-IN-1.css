@@ -87,8 +87,8 @@ input {line-height: .875em;}
 .campo-reserva:focus{border: rgba(84, 70, 243, 0.15) 3px solid;outline: none;}
 .detalle-opcionales-contratados div.botonera p{width: 100%; text-align: end;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-pack: end;-ms-flex-pack: end;justify-content: flex-end;}
 .detalle-opcionales-contratados div.botonera p .IN-botones2{margin-bottom: 0;}
-.botonera{width: 100%; text-align: end;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-pack: end;-ms-flex-pack: end;justify-content: flex-end;}
-.botonera-chica{width: -webkit-max-content;width: -moz-max-content;width: max-content; display: -webkit-box; display: -ms-flexbox; display: flex;-ms-flex-item-align: end;align-self: flex-end;margin-left: auto;}
+.botonera{width: 100%; text-align: end;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-pack: end;-ms-flex-pack: end;justify-content: flex-end;-ms-flex-wrap: wrap; flex-wrap: wrap;}
+.botonera-chica{width: -webkit-max-content;width: -moz-max-content;width: max-content; display: -webkit-box; display: -ms-flexbox; display: flex;-ms-flex-item-align: end;align-self: flex-end;margin-left: auto;-ms-flex-wrap: wrap; flex-wrap: wrap;}
 .botonera-doble{display: -webkit-box;display: -ms-flexbox;display: flex;-ms-flex-wrap: wrap;flex-wrap: wrap;}
 .item-opcionales .estado{background-color: #F95959;}
 .estado.operativo{background-color: #db326e;}
